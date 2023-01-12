@@ -14,7 +14,7 @@ else:
 
     with open(f'{file_path}', 'r') as f:
         p = Parser().parse(f)
-        Parser().__jsonify()
+        
         with open('json_output.json', 'w') as out:
             out.write(p)
             
