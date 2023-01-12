@@ -27,7 +27,7 @@ class Parser:
             self.__capitals.append({"capital":capital, "state":state})
 
 
-    def __clean(seld, s: str) -> list:
+    def __clean(self, s: str) -> list:
         return s.lstrip().rstrip()
 
 
